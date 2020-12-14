@@ -1,0 +1,19 @@
+{
+  "name": "fetalentfactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/tailwind.css -o public/css/styles.css",
+    "build-css2": "npx tailwindcss-cli@latest build src/tailwind.css -o public/css/styles.css",
+    "build-css-production": "NODE_ENV=production tailwindcss build src/tailwind.css -o public/css/styles.css"
+  },
+  "author": "dhiaaziz",
+  "license": "ISC"
+}
