@@ -1,13 +1,427 @@
 <!doctype html>
 <html>
+
 <head>
   <!-- ... -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>dhiaaziz's Personal Site</title>
+
   <link href="./public/css/styles.css" rel="stylesheet">
 </head>
-<body>
-  <!-- ... -->
-  <div class="text-white bg-black">test</div>
+
+<body class="">
+  <!-- content wrapper -->
+  <header class="fixed z-20 w-full text-gray-700 bg-white body-font font-primary">
+    <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+      <a class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 p-2 text-white bg-indigo-600 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl font-bold">dhiaaziz</span>
+      </a>
+      <nav class="flex flex-wrap items-center justify-center text-base tracking-wide md:ml-auto">
+        <a class="mr-5 cursor-pointer hover:text-indigo-500">Introduction</a>
+        <a class="mr-5 cursor-pointer hover:text-indigo-500">Experience</a>
+        <a class="mr-5 cursor-pointer hover:text-indigo-500">Portfolio</a>
+        <a class="mr-5 cursor-pointer hover:text-indigo-500">Blog</a>
+        <a class="cursor-pointer hover:text-indigo-500">Contact Me</a>
+      </nav>
+      <!-- <button
+        class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button> --> 
+    </div>
+  </header>
+
+  <!--section: introduction-->
+  <section class="text-gray-700 body-font" id="sec-introduction">
+    <div class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
+      <div
+        class="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
+        <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">Before they sold out
+          <br class="hidden lg:inline-block">readymade gluten
+        </h1>
+        <p class="mb-8 leading-relaxed font-secondary">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant
+          cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic
+          tumeric truffaut hexagon try-hard chambray.</p>
+        skillset
+        <ul>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+        </ul>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex px-6 py-2 text-lg text-white bg-indigo-600 border-0 rounded focus:outline-none hover:bg-indigo-600">Button</button>
+          <button
+            class="inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300">Button</button>
+        </div>
+      </div>
+      <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      </div>
+    </div>
+  </section>
+
+  <!--section: experience-->
+  <section class="text-gray-700 bg-gray-200 body-font" id="sec-experience">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="w-full pr-6 mb-6 lg:w-1/2 lg:mb-0">
+          <h1 class="mb-2 text-2xl font-bold text-gray-700 sm:text-5xl title-font">Journey of Life
+          </h1>
+          <div class="w-20 h-1 bg-indigo-600 rounded"></div>
+        </div>
+        <p class="w-full text-base leading-relaxed lg:w-1/2">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun
+          deep
+          jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      </div>
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+          <div class="relative flex pb-12">
+            <div class="absolute inset-0 flex items-center justify-center w-10 h-full">
+              <div class="w-1 h-full bg-gray-400 pointer-events-none"></div>
+            </div>
+            <div
+              class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-600 rounded-full">
+
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">STEP 1</h2>
+              <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke
+                try-hard
+                cliche palo santo offal.</p>
+            </div>
+          </div>
+          <div class="relative flex pb-12">
+            <div class="absolute inset-0 flex items-center justify-center w-10 h-full">
+              <div class="w-1 h-full bg-gray-400 pointer-events-none"></div>
+            </div>
+            <div
+              class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-gray-600 rounded-full">
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">STEP 2</h2>
+              <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health
+                goth, vape typewriter.</p>
+            </div>
+          </div>
+          <div class="relative flex pb-12">
+            <div class="absolute inset-0 flex items-center justify-center w-10 h-full">
+              <div class="w-1 h-full bg-gray-400 pointer-events-none"></div>
+            </div>
+            <div
+              class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-gray-600 rounded-full">
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">STEP 3</h2>
+              <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master
+                cleanse
+                blog taiyaki.</p>
+            </div>
+          </div>
+          <div class="relative flex pb-12">
+            <div class="absolute inset-0 flex items-center justify-center w-10 h-full">
+              <div class="w-1 h-full bg-gray-400 pointer-events-none"></div>
+            </div>
+            <div
+              class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-gray-600 rounded-full">
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">STEP 4</h2>
+              <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke
+                try-hard
+                cliche palo santo offal.</p>
+            </div>
+          </div>
+          <div class="relative flex">
+            <div
+              class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-gray-600 rounded-full">
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="mb-1 text-sm font-medium tracking-wider text-gray-900 title-font">FINISH</h2>
+              <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed
+                retro.</p>
+            </div>
+          </div>
+        </div>
+        <img class="object-cover object-center mt-12 rounded-lg lg:w-3/5 md:w-1/2 md:mt-0"
+          src="https://dummyimage.com/1200x500" alt="step">
+      </div>
+  </section>
+
+  <!--section: portfolio-->
+  <section class="text-gray-200 bg-indigo-600 body-font" id="sec-portfolio">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="w-full mb-6 lg:w-1/2 lg:mb-0">
+          <h1 class="mb-2 text-2xl font-bold text-gray-200 sm:text-5xl title-font">Featured Portfolios
+          </h1>
+          <div class="w-20 h-1 bg-yellow-500 rounded"></div>
+        </div>
+        <p class="w-full text-base leading-relaxed lg:w-1/2">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep
+          jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      </div>
+      <div class="flex flex-wrap -m-4 text-gray-700">
+        <div class="p-4 xl:w-1/4 md:w-1/2">
+          <div class="p-6 bg-gray-100 rounded-lg">
+            <img class="object-cover object-center w-full h-40 mb-6 rounded" src="https://dummyimage.com/720x400"
+              alt="content">
+            <h3 class="text-xs font-medium tracking-widest text-orange-500 title-font">SUBTITLE</h3>
+            <h2 class="mb-4 text-lg font-medium text-gray-900 title-font">Chichen Itza</h2>
+            <p class="text-base leading-relaxed">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2">
+          <div class="p-6 bg-gray-100 rounded-lg">
+            <img class="object-cover object-center w-full h-40 mb-6 rounded" src="https://dummyimage.com/721x401"
+              alt="content">
+            <h3 class="text-xs font-medium tracking-widest text-orange-500 title-font">SUBTITLE</h3>
+            <h2 class="mb-4 text-lg font-medium text-gray-900 title-font">Colosseum Roma</h2>
+            <p class="text-base leading-relaxed">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2">
+          <div class="p-6 bg-gray-100 rounded-lg">
+            <img class="object-cover object-center w-full h-40 mb-6 rounded" src="https://dummyimage.com/722x402"
+              alt="content">
+            <h3 class="text-xs font-medium tracking-widest text-orange-500 title-font">SUBTITLE</h3>
+            <h2 class="mb-4 text-lg font-medium text-gray-900 title-font">Great Pyramid of Giza</h2>
+            <p class="text-base leading-relaxed">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2">
+          <div class="p-6 bg-gray-100 rounded-lg">
+            <img class="object-cover object-center w-full h-40 mb-6 rounded" src="https://dummyimage.com/723x403"
+              alt="content">
+            <h3 class="text-xs font-medium tracking-widest text-orange-500 title-font">SUBTITLE</h3>
+            <h2 class="mb-4 text-lg font-medium text-gray-900 title-font">San Francisco</h2>
+            <p class="text-base leading-relaxed">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section: blog-->
+  <section class="text-gray-700 body-font" id="sec-blog">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="w-full pr-6 mb-6 lg:w-1/2 lg:mb-0">
+          <h1 class="mb-2 text-2xl font-bold text-gray-700 sm:text-5xl title-font">Blogs
+          </h1>
+          <div class="w-20 h-1 bg-indigo-600 rounded"></div>
+        </div>
+        <p class="w-full text-base leading-relaxed lg:w-1/2">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun
+          deep
+          jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg">
+            <img class="object-cover object-center w-full lg:h-48 md:h-36" src="https://dummyimage.com/720x400"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="mb-1 text-xs font-medium tracking-widest text-gray-500 title-font">CATEGORY</h2>
+              <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">The Catalyzer</h1>
+              <p class="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <div class="flex flex-wrap items-center ">
+                <a class="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="inline-flex items-center py-1 pr-3 ml-auto mr-3 text-sm leading-none text-gray-600 border-r-2 border-gray-300 lg:ml-auto md:ml-0">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="inline-flex items-center text-sm leading-none text-gray-600">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg">
+            <img class="object-cover object-center w-full lg:h-48 md:h-36" src="https://dummyimage.com/721x401"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="mb-1 text-xs font-medium tracking-widest text-gray-500 title-font">CATEGORY</h2>
+              <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">The 400 Blows</h1>
+              <p class="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <div class="flex flex-wrap items-center">
+                <a class="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="inline-flex items-center py-1 pr-3 ml-auto mr-3 text-sm leading-none text-gray-600 border-r-2 border-gray-300 lg:ml-auto md:ml-0">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="inline-flex items-center text-sm leading-none text-gray-600">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg">
+            <img class="object-cover object-center w-full lg:h-48 md:h-36" src="https://dummyimage.com/722x402"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="mb-1 text-xs font-medium tracking-widest text-gray-500 title-font">CATEGORY</h2>
+              <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">Shooting Stars</h1>
+              <p class="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.</p>
+              <div class="flex flex-wrap items-center ">
+                <a class="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="inline-flex items-center py-1 pr-3 ml-auto mr-3 text-sm leading-none text-gray-600 border-r-2 border-gray-300 lg:ml-auto md:ml-0">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="inline-flex items-center text-sm leading-none text-gray-600">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--section: contact-->
+  <section class="relative text-gray-700 body-font" id="sec-contact">
+    <div class="absolute inset-0 bg-gray-300">
+      <iframe style="filter: grayscale(1) contrast(1.2) opacity(0.4);" marginheight="0" marginwidth="0" title="map"
+        scrolling="no"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.8627012508429!2d110.41428778809157!3d-7.073617068781716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70894898896e21%3A0xb2affcefd65d5f6b!2sJl.%20Karangrejo%20II%20A%20No.8%2C%20Srondol%20Wetan%2C%20Kec.%20Banyumanik%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050263!5e0!3m2!1sen!2sid!4v1607968970497!5m2!1sen!2sid"
+        width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+    <div class="container flex px-5 py-24 mx-auto">
+      <div
+        class="relative z-10 flex flex-col w-full p-8 mt-10 bg-white rounded-lg lg:w-1/3 md:w-1/2 md:ml-auto md:mt-0">
+        <h2 class="mb-1 text-lg font-medium text-gray-900 title-font">Feedback</h2>
+        <p class="mb-5 leading-relaxed text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+        <div class="relative mb-4">
+          <label for="email" class="text-sm leading-7 text-gray-600">Email</label>
+          <input type="email" id="email" name="email"
+            class="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500">
+        </div>
+        <div class="relative mb-4">
+          <label for="message" class="text-sm leading-7 text-gray-600">Message</label>
+          <textarea id="message" name="message"
+            class="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none resize-none focus:border-indigo-500"></textarea>
+        </div>
+        <button
+          class="px-6 py-2 text-lg text-white bg-indigo-600 border-0 rounded focus:outline-none hover:bg-indigo-600">Button</button>
+        <p class="mt-3 text-xs text-gray-500">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--section: footer-->
+  <footer class="text-gray-200 body-font">
+    <div class="bg-indigo-600">
+      <div class="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
+        <p class="text-sm text-center text-gray-200 sm:text-left">Designed and Built by
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-yellow-300 "
+            target="_blank">@dhiaaziz</a>
+        </p>
+        <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+          <a class="text-yellow-300">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-yellow-300">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-yellow-300">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-yellow-300">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
