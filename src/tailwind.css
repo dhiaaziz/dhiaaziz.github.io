@@ -3,4 +3,8 @@
 
 @tailwind base;
 @tailwind components;
+
+.btn {
+    @apply font-primary;
+}
 @tailwind utilities;
